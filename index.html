@@ -1,24 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Basic Web Dev Projects</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Basic Web Development Projects</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; }
-    h1 { text-align: center; color: #333; }
-    ul { list-style: none; padding: 0; }
-    li { margin: 12px 0; }
-    a { text-decoration: none; color: #0066cc; font-size: 1.2em; }
-    a:hover { text-decoration: underline; }
+    /* Reset some basics */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      margin-bottom: 15px;
+      color: #005f73;
+      font-weight: 700;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    p.description {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      max-width: 600px;
+      text-align: center;
+      color: #555;
+    }
+
+    ul.projects-list {
+      list-style: none;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    ul.projects-list li {
+      background: white;
+      margin-bottom: 15px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      cursor: pointer;
+    }
+
+    ul.projects-list li:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgb(0 0 0 / 0.15);
+    }
+
+    ul.projects-list li a {
+      text-decoration: none;
+      color: #0077b6;
+      font-weight: 600;
+      font-size: 1.2rem;
+      display: block;
+    }
+
+    ul.projects-list li a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 10px 0;
+      font-size: 0.9rem;
+      color: #777;
+      text-align: center;
+      width: 100%;
+      max-width: 600px;
+    }
   </style>
 </head>
 <body>
-  <h1>My Basic Web Dev Projects</h1>
-  <ul>
-    <li><a href="Project1_ChangeBgButton/main.html" target="_blank">Change Background Button</a></li>
-    <li><a href="Project2_BMI/main.html" target="_blank">BMI Calculator</a></li>
-    <li><a href="Project3_LocalTime/main.html" target="_blank">Local Time Display</a></li>
-    <li><a href="Project4_GuessNumberGame/main.html" target="_blank">Guess the Number Game</a></li>
-    <li><a href="Project5_SetIntervalBgColor/main.html" target="_blank">Set Interval Background Color</a></li>
+  <h1>Basic Web Development Projects</h1>
+  <p class="description">
+    Explore these beginner-friendly HTML, CSS, and JavaScript projects to boost your frontend skills.
+  </p>
+
+  <ul class="projects-list">
+    <li><a href="Project1_ChangeBgButton/main.html" target="_blank" rel="noopener noreferrer">Change Background Button</a></li>
+    <li><a href="Project2_BMI/main.html" target="_blank" rel="noopener noreferrer">BMI Calculator</a></li>
+    <li><a href="Project3_LocalTime/main.html" target="_blank" rel="noopener noreferrer">Local Time Display</a></li>
+    <li><a href="Project4_GuessNumberGame/main.html" target="_blank" rel="noopener noreferrer">Guess the Number Game</a></li>
+    <li><a href="Project5_SetIntervalBgColor/main.html" target="_blank" rel="noopener noreferrer">Set Interval Background Color</a></li>
   </ul>
+
+  <footer>© 2025 Ayush Singh Kaushik</footer>
 </body>
 </html>
