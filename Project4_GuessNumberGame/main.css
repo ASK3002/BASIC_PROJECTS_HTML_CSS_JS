@@ -1,0 +1,19 @@
+body{
+    padding: 30px;
+    background-color:rgb(182, 227, 93) ;
+}
+.container{
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: bisque;
+    border-radius: 10%;
+    padding-top: 10px;
+}
+#wrapper{
+    background-color: rgb(253, 144, 144);
+}
+#wrapper h1{
+    padding: 10px;
+}

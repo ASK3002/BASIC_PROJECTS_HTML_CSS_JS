@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Set Inetrval Change Background Color</title>
+</head>
+<body>
+    <h2 class="heading" style="text-align: center;">Click start  button to change Background Color and stop button to stop changing of Background color!!!</h1>
+    <div id="buttons" style="margin: 0 auto; height: 30px; width:150px; ">
+        <button id="start">START</button>
+        <button id="stop">STOP</button>
+    </div>
+    <script>
+        const randomColor=function(){
+            const hex='0123456789ABCDEF'
+            let color='#'
+            for(let i=0;i<6;++i){
+                color+=hex[Math.floor(Math.random()*16)]
+            }
+            return color
+        }
+        let intervalId;
+        const startColorChange=function(){
+            if(!intervalId){
+                intervalId=setInterval(changeColor,1000)
+                
+            }
+            function changeColor(){
+                document.body.style.backgroundColor=randomColor();
+            }
+        }
+        const stopColorChange=function(){
+            clearInterval(intervalId)
+            intervalId=null
+        }
+
+        document.getElementById('start').addEventListener('click',startColorChange)
+        document.getElementById('stop').addEventListener('click',stopColorChange)
+    </script>
+</body>
+</html>

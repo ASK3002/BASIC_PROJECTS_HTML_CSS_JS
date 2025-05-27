@@ -1,0 +1,54 @@
+body{
+    padding-top: 50px;
+}
+.container{
+    
+    padding: 20px;
+    text-align: center;
+    background-color: bisque;
+    height:500px;
+    width: 700px;
+    margin: 0 auto; /* Center the container horizontally */
+    border-radius: 30%;
+}
+.heading{
+    background-color: rgb(237, 139, 106);
+    width: 300px;
+    margin:0 auto;
+    padding: 10px;
+    border-radius: 10%;
+}
+.input-field{
+    margin-top: 30px;
+}
+
+.input-field label{
+    padding-right: 20px;
+}
+.input-field input{
+    background-color: rgb(239, 163, 109);
+    border-radius: 10%;
+    width: 200px;
+    height: 30px;
+}
+.button{
+    height:50px;
+    font-size: larger;
+    background-color: rgb(246, 115, 115);
+    padding: 10px;
+    border-radius: 10%;
+
+}
+.button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+.result{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.weight-guide{
+    margin-top: 30px;
+}

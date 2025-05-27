@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between; /* Spaces out the buttons evenly */
+    width: 1000px; /* Set the width of the buttons container */
+    height: 200px;
+    margin: 0 auto; /* Center the container horizontally */
+}
+.button{
+    border: solid, 5px , rgb(71, 53, 53) ;
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    margin:50px;
+}
+#red{
+ background-color: rgb(243, 80, 80);
+}
+#yellow{
+    background-color: rgb(240, 240, 118);
+}
+#green{
+    background-color: rgb(137, 238, 137);
+}
+#grey{
+    background-color: grey;
+}
+h2{
+    text-align: center;
+}
