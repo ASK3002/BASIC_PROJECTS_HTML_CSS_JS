@@ -36,7 +36,7 @@ These projects are designed to help you build a solid foundation in frontend dev
 
 - **HTML5** — Markup language for structuring content  
 - **CSS3** — Styling and layout design  
-- **JavaScript (Vanilla)** — Programming interactivity and logic  
+- **JavaScript** — Programming interactivity and logic  
 
 ---
 
