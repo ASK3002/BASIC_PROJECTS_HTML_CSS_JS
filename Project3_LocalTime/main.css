@@ -1,23 +1,31 @@
-body{
-    background-color: grey;
+body {
+    background-color: #1b1a1a;  
     padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
-#container{
-    text-align: center;
-    padding: 10px;
-    height:100px;
-    width:200px;
-    background-color: rgb(83, 78, 78);
-    margin:0 auto;
-    border-radius: 10%;
 
+#container {
+    text-align: center;
+    padding: 20px 30px;
+    height: 120px;
+    width: 250px;
+    background-color: #4a4646; 
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-#heading{
-    color:rgb(247, 255, 9);
-    font-size: xx-large;
+
+#heading {
+    color: #f7ff09; 
+    font-size: 2rem; 
+    font-weight: 700;
+    margin-bottom: 10px;
 }
-#clock{
-    padding: 10px;
-    color: aliceblue;
-    font-size: x-large;
+
+#clock {
+    padding: 10px 0;
+    color: #e0e8f9; 
+    font-size: 1.5rem;
+    font-weight: 600;
 }
