@@ -8,9 +8,13 @@ body {
 
 h1 {
     text-align: center;
-    color: #eee;
+    color: #000000;
     margin-bottom: 50px;
     font-weight: 600;
+    background-color: #9E9E9E;
+    width:50%;
+    margin: 0 auto;
+    border-radius:5%;
 }
 
 .buttons {
@@ -68,7 +72,11 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #ddd;
+    color: #000000;
     margin-top: 50px;
     font-weight: 500;
+    background-color: #9E9E9E;
+    width:50%;
+    margin: 0 auto;
+    border-radius:5%;
 }
